@@ -41,19 +41,6 @@
 }
 
 #box1-div{
-    width:30%;
-    background-color:blueviolet;
-    float:left;
-}
-
-#box2-div{
-    width:30%;
-    background-color:blueviolet;
-    float:left;
-    margin-left: 5%;
-}
-
-#box1-div{
     width:22%;
     background-color:blueviolet;
     float:left;
@@ -68,12 +55,6 @@
 }
 
 #box3-div{
-    width:22%;
-    background-color:blueviolet;
-    float:right;
-}
-
-#box4-div{
     width:22%;
     background-color:blueviolet;
     float:right;
