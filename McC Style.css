@@ -1,0 +1,13 @@
+body{
+    background-color: snow;
+}
+
+h1{
+    text-align: center;
+    color: darkslategrey;
+    padding-top: 10px;
+}
+
+hr{
+    color: darkslategray;
+}
