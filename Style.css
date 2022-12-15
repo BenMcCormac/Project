@@ -88,3 +88,16 @@
     line-height:50px;
     font-size: smaller;
 }
+
+a:link{
+   color:midnightblue;
+    text-decoration: none;
+}
+
+a:visited{
+    color:darkred;
+}
+
+a:hover{
+    color: mintcream;
+}
