@@ -1,0 +1,87 @@
+*{
+    margin: 10px;
+    padding: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+#logo-div{
+    width: 100%;
+    min-height: 20px;
+    background-color:rgb(14, 243, 243);
+    padding-left: 4%;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+#nav-div{
+    width: 100%;
+    min-height: 20px;
+    background-color: rgb(124, 124, 119);
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+a:link {
+    color: rgb(255, 230, 2);
+  }
+  
+ 
+  a:visited {
+    color: green;
+  }
+  
+  
+  a:hover {
+    color: rgb(236, 0, 0);
+  }
+  
+ 
+  a:active {
+    color: blue;
+  }
+  
+
+
+#main-div{
+    width:100%;
+    min-height: 20px;
+   
+}
+
+#left-div{
+    background: rgb(255, 252, 252);
+    width:30%;
+    min-height:40px;
+    line-height:40px;
+    text-align:center;
+    background-color: rgb(107, 97, 97);
+    float: left;
+    border: 5px;
+}
+
+#mid-div{
+    width: 30%;
+    line-height: 40px;
+    min-height: 40px;
+    text-align: left;
+    background-color: rgb(245, 169, 6);
+    float: right;
+}
+
+
+
+#right-div{
+    width:30%;
+    min-height:40px;
+    line-height:40px;
+    text-align:center;
+    background-color: purple;
+    float: right;
+}
+
+
+
