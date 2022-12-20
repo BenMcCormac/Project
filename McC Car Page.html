@@ -6,23 +6,71 @@
     <title>Family And MPV</title>
 
     <link rel="stylesheet" href="McC Style.css">
+    <link rel="icon" href="Toyota.jfif" type="image">
 </head>
 <body>
-    <h1>Family & MPV</h1>
+    <div id="head">
+            <h1>Family & MPV</h1>
+    </div>
     <hr>
-    <!--Make Divided Boxes For Images Of Cars-->
 
-    <img src="Touring Sports.jfif" width="500px" align="right" alt="Toyota Corrola">
-    <div id="out">
-        <img src="HatchBack.jfif" width="500px" align="right" alt="Toyota Corrola Hatchback">
-        <img src="Corrola.jfif" width="500px" align="right" alt="Toyota Corrola">
+    <div id="Sidebar">
+        <h2>This is where all the interactive text will be</h2>
+        <div id="Text-Wall">
+                <p>These cars are designed by Toyota and are intended for the everyday needs of a family.<br>The vehicles are built with value in mind as well as comfort and utility, made to last a legnthy period of time before needing a replacement.<br></p>
+                <p>Toyota's line of MPV's and Family vehicles are incredibly fuel efficient and cost effective, to better suit the needs of it's users.</p>
+        </div>
+        <form>
+            Insert the serial number of the car that you want to check the price of: <input type="text" id="Car" />
+            <input type="button" onClick="price()" Value="Price" />
+        </form>
+        <p><u>The Price is : $  <span id = "result"></span></u> </p>
+        <p><u>Price to loan: $ <span id="loan"></span> </u></p>
     </div>
 
-    <div id="Side Text">
-        <h3>This is Where the JavaScript Is Going to reside</h3>
-
-        <p>Sample Text</p>
+    <div id="Main-Body">
+        <div id='Neat'>
+            <table cellspacing='5px'>
+                <tr>
+                    <td>
+                            <p>Serial No.1</p>
+                            <a href="https://www.toyota.ie/models/corolla-hatchback" target="_blank"><img src="HatchBack.jfif" width="75%" alt="HatchBack"></a>
+                    </td>
+                    <td>
+                            <p>Serial No.2</p>
+                            <a href="https://www.toyota.ie/models/corolla-saloon" target="_blank"><img src="Corrola.jfif" width="75%" alt="Saloon"></a>
+                    </td>
+                    <td>
+                            <p>Serial No.3</p>
+                            <a href="https://www.toyota.ie/models/corolla-touring-sports" target="_blank"><img src="Touring Sports.jfif" width="75%" alt="Touring-Sports"></a>
+                </tr>
+                <tr>
+                        <td>
+                                <p>Serial No.4</p>
+                                <a href="https://www.toyota.ie/models/camry" target="_blank"><img src="Camry.jfif" width="75%" alt="Camry"></a>
+                        </td>
+                        <td>
+                                <p>Serial No.5</p>
+                                <a href="https://www.toyota.ie/models/rav4" target="_blank"><img src="RAV4.jfif" width="75%" alt="RAV4"></a>
+                        </td>
+                        <td>
+                                <p>Serial No.6</p>
+                                <a href="https://www.toyota.ie/models/rav4-plugin" target="_blank"><img src="PHEV RAV4.jfif" width="75%" alt="Plugin"></a>
+                        </td>
+                </tr>
+            </table>
+        </div>
     </div>
 
+    <hr>
+
+    <div id="Footer">
+        <h6>All information and reference images were pulled from the Official <a href="https://www.toyota.ie/?gclid=EAIaIQobChMIqeij8tOF_AIVoe_tCh2MfgLxEAAYASAAEgLJsfD_BwE&gclsrc=aw.ds">Toyota Website</a>&copy; <b>Ben McCormack's Page</b></h6>
+    </div>
+
+    <br>
+    <hr>
+
+    <script src="McC Java.js"></script>
 </body>
 </html>

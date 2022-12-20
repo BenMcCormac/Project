@@ -25,6 +25,7 @@ body{
     line-height:30px;
     text-align: center;
     margin-bottom: 10px;
+    
 }
 
 #header-div{
@@ -40,14 +41,15 @@ body{
     width:100%;
     min-height:400px;
     text-align: center;
-    line-height:400px;
     margin-bottom: 10px;
+    background-color: gray;
 }
 
 #box1-div{
     width:22%;
     background-color:rgba(175, 14, 47, 0.863);
     float:left;
+    min-height: 400px;
 }
 
 #box2-div{
@@ -56,22 +58,34 @@ body{
     float:left;
     margin-left: 4%;
     margin-right: 4%;
+    min-height: 400px;
 }
 
 #box3-div{
     width:22%;
     background-color:rgba(175, 14, 47, 0.863);
     float:right;
+    min-height: 400px;
 }
 
 #footer-div{
+    margin-top: 2%;
     width:100%;
     min-height:50px;
     background-color: rgb(63, 63, 63);
     text-align: center;
     line-height:50px;
     font-size: smaller;
-    color: white;
+    color: snow;
+
+}
+
+.clear-fix{
+    clear: none;
+}
+
+a{
+    font-size: 24px;
 }
 
 a:link{
@@ -80,9 +94,9 @@ a:link{
 }
 
 a:visited{
-    color:darkred;
+    color:snow;
 }
 
 a:hover{
-    color: mintcream;
+    color: rgb(255, 117, 53);
 }
