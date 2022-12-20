@@ -6,19 +6,79 @@
 }
 
 body{
-    background-color: snow;
+    background-color: rgb(158, 2, 33);
 }
 
 h1{
     text-align: center;
-    color: darkslategrey;
+    color: ivory;
     padding-top: 10px;
+}
+
+h2{
+    text-align: center;
+    color: ivory;
+    padding-top: 10px;
+    margin-bottom: 30px
+}
+
+h6{
+    background-color: rgb(155, 0, 0);
 }
 
 hr{
     color: darkslategray;
 }
 
+form{
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 80px;
+    color: ivory;
+}
+
+img{
+    float: left;
+    margin-left: 8%;
+}
+
+table{
+    width: 100%;
+    border: 2px;
+    min-height: 200px;
+}
+
+#head{
+    background-color: rgb(155, 0, 0)
+}
+
 #Sidebar{
     width: 20%;
+    float: left;
+    background-color: darkslategrey;
+    min-height: 505px;
+    text-align: center;
+    color: ivory;
+}
+
+#Text-Wall{
+    background-color: brown;
+    color: black;
+}
+
+#Neat{
+    text-align: left;
+    color: snow;
+}
+
+#Main-Body{
+    float: left;
+    width: 80%;
+    background-color: rgb(35, 30, 30);
+    min-height: 400px;
+    text-align: center;
+}
+
+#Footer{
+    float: right;
 }

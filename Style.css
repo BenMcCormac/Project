@@ -41,14 +41,15 @@ body{
     width:100%;
     min-height:400px;
     text-align: center;
-    line-height:400px;
     margin-bottom: 10px;
+    background-color: gray;
 }
 
 #box1-div{
     width:22%;
     background-color:rgba(175, 14, 47, 0.863);
     float:left;
+    min-height: 400px;
 }
 
 #box2-div{
@@ -57,12 +58,14 @@ body{
     float:left;
     margin-left: 4%;
     margin-right: 4%;
+    min-height: 400px;
 }
 
 #box3-div{
     width:22%;
     background-color:rgba(175, 14, 47, 0.863);
     float:right;
+    min-height: 400px;
 }
 
 #footer-div{
