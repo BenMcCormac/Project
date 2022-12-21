@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: snow;
+}
+
 #logo-div{
     width:100%;
     min-height:50px;
@@ -21,6 +25,7 @@
     line-height:30px;
     text-align: center;
     margin-bottom: 10px;
+    
 }
 
 #header-div{
@@ -36,55 +41,62 @@
     width:100%;
     min-height:400px;
     text-align: center;
-    line-height:400px;
     margin-bottom: 10px;
+    background-color: gray;
 }
 
 #box1-div{
     width:22%;
-    background-color:blueviolet;
+    background-color:rgba(175, 14, 47, 0.863);
     float:left;
+    min-height: 400px;
 }
 
 #box2-div{
     width:22%;
-    background-color:blueviolet;
+    background-color: rgba(175, 14, 47, 0.863);
     float:left;
     margin-left: 4%;
     margin-right: 4%;
+    min-height: 400px;
 }
 
 #box3-div{
     width:22%;
-    background-color:blueviolet;
+    background-color:rgba(175, 14, 47, 0.863);
     float:right;
-}
-
-#side-div{
-    width:22%;
-    text-align: center;
-    background-color: skyblue;
-    float:left
-}
-
-#body-div{
-    width:75%;
-    text-align: center;
-    background-color: skyblue;
-    float:right
-}
-
-.clear-fix::after{
-    content:"";
-    clear:both;
-    display:block;
+    min-height: 400px;
 }
 
 #footer-div{
+    margin-top: 2%;
     width:100%;
     min-height:50px;
-    background-color: lightgreen;
+    background-color: rgb(63, 63, 63);
     text-align: center;
     line-height:50px;
     font-size: smaller;
+    color: snow;
+
+}
+
+.clear-fix{
+    clear: none;
+}
+
+a{
+    font-size: 24px;
+}
+
+a:link{
+   color:midnightblue;
+    text-decoration: none;
+}
+
+a:visited{
+    color:snow;
+}
+
+a:hover{
+    color: rgb(255, 117, 53);
 }
